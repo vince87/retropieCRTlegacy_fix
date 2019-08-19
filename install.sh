@@ -6,6 +6,7 @@
 
 cd ~
 sudo apt-get update
+sudo apt-get install -y git
 git clone https://github.com/vince87/retropieCRTlegacy_fix.git
 cd ~/retropieCRTlegacy_fix
 git reset --hard origin/master
