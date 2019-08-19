@@ -6,8 +6,8 @@
 
 cd ~
 sudo apt-get update
-git clone https://github.com/vince87/JammaPi.git
-cd ~/JammaPi
+git clone https://github.com/vince87/retropieCRTlegacy_fix.git
+cd ~/retropieCRTlegacy_fix
 git reset --hard origin/master
 git pull
 
@@ -38,7 +38,7 @@ git pull
 
 	
 	printf "\033[1;31m Installo driver Joystick \033[0m\n"
-	cd ~/JammaPi/joypi/
+	cd ~/retropieCRTlegacy_fix/joypi/
 	make
 	sudo make install
 	sudo insmod joypi.ko
